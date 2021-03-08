@@ -18,11 +18,14 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li><%= link_to "About", pages_about_path %>
+        <li><%= link_to "Sign In", welcome_show_path %>
       </ul>
     </div>
   </nav>
 
   <body>
+    <section>
     <%= yield %>
+    </section>
   </body>
 </html>
